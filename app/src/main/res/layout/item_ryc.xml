@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    android:layout_margin="15dp"
+    android:layout_height="wrap_content"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layoutitem"
+        android:background="@drawable/background_them2"
+        >
+
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:src="@drawable/conan"
+            android:layout_gravity="center"
+            android:id="@+id/imgTruyen"/>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ten"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Tên truyện"/>
+
+
+
+            <TextView
+                android:id="@+id/tacgia"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:hint="Tác giả"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

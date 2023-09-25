@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="tuychon" >Bạn muốn làm gì ?</string>
+    <string name="update" formatted="true">Chỉnh sửa</string>
+    <string name="delete" formatted="true" >Xóa</string>
+    <string name="dialog_start_game" >Bạn chắc chắn muốn xóa ?</string>
+    <string name="start" formatted="true">Có</string>
+    <string name="cancel" formatted="true" >Không</string>
+    <string name="signin" />
+</resources>

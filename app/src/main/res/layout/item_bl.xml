@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:id="@+id/binhluanitem"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/conan"
+            android:layout_gravity="center"
+            android:id="@+id/anhnguoidung"
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/background_them2"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Bùi Quang Long"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/tennguoidung"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+
+                android:id="@+id/tvbl"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

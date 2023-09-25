@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E2E7"
+    tools:context=".ManLogin">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/conan"
+
+                 />
+
+            <TextView
+                android:id="@+id/dangNhap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logo"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="10dp"
+                android:text="Sign in"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvghichu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dangNhap"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="10dp"
+                android:text="Sign in to continue"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvghichu"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/bg_edittext"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="16dp"
+                android:hint="Username"
+                android:inputType="text"
+                android:paddingLeft="25dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etUsername"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/bg_edittext"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="16dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="25dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textSize="14dp" />
+
+
+
+            <Button
+                android:id="@+id/btLogin"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etPassword"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_btn"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btLogin"
+                android:layout_marginLeft="250dp"
+                android:id="@+id/he"
+                android:text="Sign up"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

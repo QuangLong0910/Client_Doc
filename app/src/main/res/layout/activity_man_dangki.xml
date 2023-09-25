@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/conan"
+    tools:context=".Interface.ManDangki">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Thêm người dùng"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:gravity="center"
+
+        android:layout_marginTop="80dp"
+        />
+
+    <EditText
+        android:id="@+id/Tk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_them"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/mk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_them"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/imagethem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_them"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/sdt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_them"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/quequan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_them"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/sinhnhat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_them"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/luu"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

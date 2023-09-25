@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Chitiettruyen">
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="550dp"
+
+      android:background="@drawable/background_them2"
+      android:id="@+id/ndtruyen"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="65dp"
+      android:orientation="horizontal"
+      >
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:gravity="center"
+          android:id="@+id/anhnd"
+          android:src="@drawable/conan"/>
+     <EditText
+         android:layout_width="290dp"
+         android:layout_height="60dp"
+       android:layout_marginLeft="20dp"
+       android:id="@+id/edtbinhluan"/>
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:gravity="center"
+          android:id="@+id/addbl"
+          android:src="@drawable/images"/>
+  </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+
+        android:id="@+id/listndbl"/>
+
+</LinearLayout>
